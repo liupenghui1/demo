@@ -1,0 +1,138 @@
+  @charset 'utf-8';
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after {
+
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    /*display: block;*/
+    vertical-align: top;
+}
+
+body {
+    background: #fafafa;
+    color: #000;
+    font-family: '微软雅黑';
+}
+.header {
+    height: 132px;
+}
+
+.register {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.register ul {
+    float: right;
+    padding: 10px 0;
+}
+
+.register li {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.register .iphone {
+    padding-left: 15px;
+    background: url(../qietu/3.png) no-repeat left center;
+}
+
+.register .weixin {
+    padding-left: 23px;
+    background: url(../qietu/2.png) no-repeat left center;
+}
+.nav{
+	width:1200px;
+	margin:0 auto;
+}
+.nav .logo{
+	float:left;
+	margin-top:15px;
+}
+.nav ul{
+	float:left;
+	margin-left:10px;
+	margin-top:40px;
+
+}
+.nav li{
+	float:left;
+	border-right:2px solid black;
+	font-size:16px;
+	font-weight:lighter;
+	padding:0 38px;
+}
+.nav .last{
+	border-right:none;
+}
+.form>*{
+	outline:0;
+}
+.form{
+	float:right;
+	margin-top:35px;
+}
+.form input{
+	float:left;
+	font-size:12px;
+	width:165px;
+	height:27px;
+	padding-left:8px;
+	border:1px solid red;
+}
+.form button{
+	width:29px;
+	height:29px;
+	margin-right:-1px;
+	border:0;
+	background:url(../qietu/4_03.png) no-repeat left;
+}
+.footer{
+	background:#3a3a3a;
+	color:white;
+	text-align:center;
+}
+.footer h4{
+	font-size:16px;
+	padding-top:22px;
+	line-height:60px;
+	font-weight:normal;
+}
+.footer ul{
+     display:inline-block;
+}
+.footer li{
+	float:left;
+	font-size:14px;
+	padding:0 10px;
+	border-right:2px solid white;
+}
+.footer li.last{
+	border-right:0;
+}
+.footer p{
+	font-size:14px;
+	line-height:60px;
+	font-weight:normal;
+	padding-bottom:23px;
+}
